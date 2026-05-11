@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museum Ticket Booking System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <select id="stateSelect">
+        <option value="" disabled selected>Select your state</option>
+        <option value="Andhra Pradesh">Andhra Pradesh</option>
+        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+        <option value="Assam">Assam</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Chhattisgarh">Chhattisgarh</option>
+        <option value="Goa">Goa</option>
+        <option value="Gujarat">Gujarat</option>
+        <option value="Jharkhand">Jharkhand</option>
+        <option value="West Bengal">West Bengal</option>
+        <!-- Add other states here -->
+    </select>
+    <select id="languageSelect">
+        <option value="en" selected>English</option>
+        <option value="hi">Hindi</option>
+        <option value="bn">Bengali</option>
+        <!-- Add other languages here -->
+    </select>
+    
+    <div class="container">
+        <header>
+            <h1>Museum Ticket Booking System (₹)</h1>
+        </header>
+        <main>
+            <section class="chatbox">
+                <div id="chat-window">
+                    <div id="messages">
+                        <!-- Messages will be displayed here -->
+                    </div>
+                    <div id="typing-indicator" class="hidden">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <input type="text" id="userInput" placeholder="Type your message..." autofocus>
+                    <button id="sendBtn">Send</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+  
+
